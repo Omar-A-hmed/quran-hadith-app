@@ -1,0 +1,9 @@
+
+Grading Update:
+- Shama'il Muhammadiyah: Successfully injected grades for 396 hadiths (98.5% coverage).
+- Al-Adab Al-Mufrad: Scraped Sunnah.com but found NO grades. It appears Sunnah.com does not list grades for this book in English/Arabic interface explicitly (unlike Shamail or Bukhari).
+- Musnad Ahmad: Skipped due to volume and complexity.
+- Forty Nawawi: Already done.
+- Hisn al-Muslim: Done via derivation.
+
+Recommendation: For Al-Adab and Musnad, we may need a different data source (e.g. specialized JSONs) or just fallback to "Not Graded" in UI (which is current behavior).
